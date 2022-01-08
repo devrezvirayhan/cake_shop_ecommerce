@@ -1,0 +1,74 @@
+[
+    {
+        "id":"1",
+        "CakeImg":"https://i.ibb.co/HYtjLM5/Cake-8.jpg",
+        "CakeName": "Angel Cake",
+        "Price":"$90",
+        "CakeDescription":"Angel Cake made with ground almonds, flour, butter, egg, spanner's pastry cream"
+
+    },
+    {
+        "id":"2",
+        "CakeImg":"https://i.ibb.co/qrjDgdY/Cake-7.jpg",
+        "CakeName": "Angel food cake",
+        "Price":"$60",
+        "CakeDescription":"Angel food cake Prepared using apple sauce, flour and sugar as primary ingredients"
+
+    },
+    {
+        "id":"3",
+        "CakeImg":"https://i.ibb.co/6yrcf6T/Cake-9.jpg",
+        "CakeName": "Avocado Cake",
+        "Price":"$50",
+        "CakeDescription":"Avocado Cake Sweet braided cake which originated in Jewish communities"
+
+    },
+    {
+        "id":"4",
+        "CakeImg":"https://i.ibb.co/jJbTWDD/Stunning-birthday-cake-covered-with-pink-icing-and-roses.jpg",
+        "CakeName": "Babka Cake",
+        "Price":"$40",
+        "CakeDescription":"Babka Cake Prepared braided cake using banana as a primary ingredient"
+
+    },
+    {
+        "id":"5",
+        "CakeImg":"https://i.ibb.co/XbQ0hPj/dessert-fruitcake.jpg",
+        "CakeName": "Banana Cake",
+        "Price":"$60",
+        "CakeDescription":"Banana Cake Egyptian sweet cake that is made of cooked semolina or farina soaked in simple syrup."
+
+    },
+    {
+        "id":"6",
+        "CakeImg":"https://i.ibb.co/hYCLSQ6/Black-forest-cakes.jpg",
+        "CakeName": "Bibikkan Cake",
+        "Price":"$55",
+        "CakeDescription":"Bibikkan Cake It is commonly prepared and consumed in celebration ."
+
+    },
+    {
+        "id":"7",
+        "CakeImg":"https://i.ibb.co/yX5hGhT/dessert-fruitcake.jpg",
+        "CakeName": "Birthday Cake",
+        "Price":"$75",
+        "CakeDescription":"Birthday Cake age - for example, a birthday cake for a nine-year-old will have nine candles on top of it."
+
+    },
+    {
+        "id":"8",
+        "CakeImg":"https://i.ibb.co/4VBrjWY/Cake-4.jpg",
+        "CakeName": "Bizcocho Cake",
+        "Price":"$65",
+        "CakeDescription":"Bizcocho Cake A cake with a moist and airy texture and meringue frosting"
+
+    },
+    {
+        "id":"9",
+        "CakeImg":"https://i.ibb.co/PDTyKBD/Wedding-cake-with-color-flore.jpg",
+        "CakeName": "Bundt Cake",
+        "Price":"$45",
+        "CakeDescription":"Bundt Cake A cake that is pan,  distinctive ring shape. The shape is European fruit cake."
+
+    }
+]
