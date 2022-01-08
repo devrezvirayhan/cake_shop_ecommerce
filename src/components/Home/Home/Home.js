@@ -1,4 +1,5 @@
 import React from 'react';
+import Category from '../../Category/Category';
 import Experts from '../Experts/Experts';
 import Header from '../Header/Header';
 import Navagation from '../Navagation/Navagation';
@@ -10,6 +11,7 @@ const Home = () => {
             <Navagation></Navagation>
             <Header></Header>
             <Products></Products>
+            <Category></Category>
             <Experts></Experts>
         </div>
     );
