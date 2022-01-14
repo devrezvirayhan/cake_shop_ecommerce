@@ -1,0 +1,12 @@
+#team_bg{
+    background-image: url(../../images/img/team_bg.jpg),linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+    background-size: cover;
+    height: 75vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#team_img:hover{
+    cursor: no-drop;
+    border: 3px solid rgb(95, 94, 94);
+}
