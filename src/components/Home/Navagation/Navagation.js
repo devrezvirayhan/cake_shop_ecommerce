@@ -5,7 +5,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 const Navagation = () => {
+    const { user, logout } = useAuth()
     return (
 
         <Box sx={{ flexGrow: 1 }}>
@@ -19,14 +21,14 @@ const Navagation = () => {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
 
                     </Typography>
-                    <Link style={{ color: 'white' }} to="/login">
-                        <Button color="inherit">Login</Button>
-                    </Link>
                     <Link style={{ color: 'white' }} to="register">
                         <Button color="inherit">Register</Button>
                     </Link>
                     <Link style={{ color: 'white' }} to="ourteam">
                         <Button color="inherit">Our Team</Button>
+                    </Link>
+                    <Link style={{ color: 'white' }} to="login">
+                        <Button color="inherit">Login</Button>
                     </Link>
                 </Toolbar>
             </AppBar>

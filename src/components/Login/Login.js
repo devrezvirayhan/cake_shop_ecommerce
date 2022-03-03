@@ -2,13 +2,14 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import signin from '../../images/img/sign-in.jpg';
-import Navagation from '../Home/Navagation/Navagation';
 import './Login.css';
 
 
 const Login = () => {
 
+    const {signUsingGoogle} = useAuth();
     const handleSubmit = e=> {
         alert('Login Success')
         e.preventDefault();
@@ -17,7 +18,6 @@ const Login = () => {
 
     return (
         <div>
-            <Navagation></Navagation>
             <div id="backround_anymation">
 
             </div>
@@ -42,7 +42,11 @@ const Login = () => {
                                 id="filled-basic"
                                 label="Password"
                                 variant="filled" />
-                            <Button type="submit" className="mt-3" style={{ width: '75%' }} variant="contained" color="success"> Login </Button>
+                            <Button type="submit" className="mt-3" style={{ width: '75%' }} variant="contained" color="success"> Login </Button> <br /> <br />
+
+
+                            <Button onClick={signUsingGoogle} className="mt-3" style={{ width: '75%' }} variant="contained" color="success"> Login Using Google </Button>
+
                             <NavLink className="mt-3" style={{ textDecoration: 'none' }} to="/register">
                                 <Button variant="text">New User? Please Register</Button>
                             </NavLink>

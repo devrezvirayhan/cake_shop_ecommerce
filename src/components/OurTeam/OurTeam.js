@@ -6,7 +6,6 @@ import Farjana from '../../images/img/Farjana.jpg';
 import Mainul from '../../images/img/Mainul.jpg';
 import RezviRayhan from '../../images/img/Rezvi_Rayhan.jpg';
 import Yeasin from '../../images/img/Yeasin.jpg';
-import Navagation from '../Home/Navagation/Navagation';
 import './OurTeam.css';
 
 
@@ -15,7 +14,6 @@ import './OurTeam.css';
 const OurTeam = () => {
     return (
         <div>
-            <Navagation></Navagation>
             <Zoom top cascade>
                 <div id="team_bg">
                     <h1 className='text-white pt-5'>Our Developer Campus.</h1>
