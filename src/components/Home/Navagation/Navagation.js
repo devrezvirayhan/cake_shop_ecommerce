@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import logo from '../../../images/img/logo.png';
 const Navagation = () => {
     const { user, logout } = useAuth()
     return (
@@ -15,7 +16,7 @@ const Navagation = () => {
                 <Toolbar>
                     <div>
                         <Link style={{ color: 'white' }} to="home">
-                            <Button color="inherit">Home</Button>
+                            <img style={{width:'70%'}} className="img-thumbnail" src={logo} alt="" />
                         </Link>
                     </div>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
