@@ -30,6 +30,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="container p-2">
+                Copyright © 2022 Infra Polytechnic Institute Coding Club Team
+            </div>
         </div>
     );
 };

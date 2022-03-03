@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Farjana from '../../images/img/Farjana.jpg';
@@ -36,6 +36,9 @@ const OurTeam = () => {
                                         Tailwind CSS, Firebase, Node, Mongo DB, Express JS, Bootstrap Etc. I
                                         like to work on the MERN stack with React.
                                     </Card.Text>
+                                    <a href="https://web.facebook.com/sksagor.rayhan/">
+                                    <Button variant="danger ">Contact</Button>
+                                    </a>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -50,7 +53,11 @@ const OurTeam = () => {
                                     <Card.Text>
                                         I'm Farjana Akhi. My religion is islam.I'm belong to an aristocratic muslim family. My family consist of 6 members. I'm honest  hard working for success. I like to accept challange. At my free time i help my mother in her ketchen. I want to be a successful programmer.
                                     </Card.Text>
+                                    <a href="https://web.facebook.com/farjana.akhi.5494">
+                                    <Button variant="danger ">Contact</Button>
+                                    </a>
                                 </Card.Body>
+                               
                             </Card>
                         </div>
                     </Fade>
@@ -64,6 +71,9 @@ const OurTeam = () => {
                                     <Card.Text>
                                         My name is Md. Mainul Islam. I am 19 years old. And I have 2 more brothers. I study in the computer department of Barisal Infra Polytechnic Institute. And the essence of my life is to be a programmer.My favorite color is green because the color of nature and green. And I love nature very much.
                                     </Card.Text>
+                                    <a href="https://web.facebook.com/profile.php?id=100015868205114">
+                                    <Button variant="danger ">Contact</Button>
+                                    </a>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -78,6 +88,9 @@ const OurTeam = () => {
                                     <Card.Text>
                                         My name is Md. Yeasin. I study in the computer department of Barisal Infra Polytechnic Institute. My favorite hobby is programming. And the essence of my life is to be a programmer.I'm honest  hard working for success. And I love nature very much.
                                     </Card.Text>
+                                    <a href="https://web.facebook.com/profile.php?id=100046500463441">
+                                    <Button variant="danger ">Contact</Button>
+                                    </a>
                                 </Card.Body>
                             </Card>
                         </div>
