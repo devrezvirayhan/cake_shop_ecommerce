@@ -1,5 +1,5 @@
+import { TextField } from '@mui/material';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import React, { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
 import caroselOne from '../../../images/img/carosel_1.jpg';
@@ -70,20 +70,33 @@ const Register = () => {
             <div className='container'>
                 <div className="row">
                     <div className="col-lg-7 col-md-6 col-sm-12">
-                        <h2 className='mt-3'>Sign Up</h2>
+                        <h2 className='mt-3 bg-success text-white p-2'>Sign Up</h2>
                         
-                        <TextField
+                        <TextField 
                         id="filled-basic"
+                        label="Name"
+                        sx={{width:'60%'}}
+                        type="text"
+                        variant="filled" /> 
+                        <br />
                         
-                        label="Your Name"
-                        variant="filled" />
+                        <TextField 
+                        id="filled-basic"
+                        label="Password"
+                        type="password"
+                        sx={{width:'60%'}}
+                        variant="filled" /> <br />
                         
-
-
+                        <TextField 
+                        id="filled-basic"
+                        label="Enter Your Email"
+                        type="email"
+                        sx={{width:'60%'}}
+                        variant="filled" /> <br />
 
                         <Button className="mt-5" style={{ width: '75%' }} variant="contained">Sign-Up</Button>
                         
-                        <Button onClick={signUsingGoogle} className="mt-5" style={{ width: '75%' }} variant="contained" color="success">Sign-Up Using Google </Button>
+                        <Button onClick={signUsingGoogle} className="mt-5 mb-3" style={{ width: '75%' }} variant="contained" color="success">Sign-Up Using Google </Button>
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12">
                         <img className='img-fluid' src={singUp} alt="" />
